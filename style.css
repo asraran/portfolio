@@ -1,15 +1,14 @@
-
 @font-face {
-    font-family: 'bebas___-webfont';
-    src: url('fonts/bebas___-webfont.eot');
-    src: url('fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/bebas___-webfont.woff') format('woff'),
-         url('fonts/bebas___-webfont.ttf') format('truetype'),
-         url('fonts/bebas___-webfont.woff2') format('woff2'),
-         url('fonts/bebas___-webfont.svg#abuget-webfont') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    color: #ffffff;
+  font-family: "bebas___-webfont";
+  src: url("fonts/bebas___-webfont.eot");
+  src: url("fonts/bebas___-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/bebas___-webfont.woff") format("woff"),
+    url("fonts/bebas___-webfont.ttf") format("truetype"),
+    url("fonts/bebas___-webfont.woff2") format("woff2"),
+    url("fonts/bebas___-webfont.svg#abuget-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
 }
 
 /* 
@@ -57,72 +56,85 @@
         }
     } */
 
-    body {
-        margin-left: 0px;
-        font-family:bebas___-webfont;
-        color: #ffffff;
-        size:30px;
-      }
-
-      .lefttitle {
-          margin-right: 250px;
-      }
-      .righttitle {
-          margin-left: 250px;
-      }
-
-
-      h5 {
-        font-family:bebas___-webfont;
-        color: #414141;
-        size:50px;
-      }
-
-
-    .bottom{
-        bottom: 0;
-      }
-      .top{
-          top: 0;
-      }
-      .left{
-          left: 0;
-      }
-      .right{
-          right: 0;
-      }
-.bg-primary{
-    background-color: #919191 !important;
+body {
+  margin-left: 0px;
+  font-family: bebas___-webfont;
+  color: #ffffff;
+  size: 30px;
 }
 
-.bg-light{
-    background-color: #C9C9C9 !important;
-
+.lefttitle,
+.righttitle {
+  max-width: calc(100% - 30em);
 }
 
-.z-index-minus{
-    z-index: -1;
+h5 {
+  font-family: bebas___-webfont;
+  color: #414141;
+  size: 50px;
+}
+
+.bottom {
+  bottom: 0;
+}
+.top {
+  top: 0;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.bg-primary {
+  background-color: #919191 !important;
+}
+
+.bg-light {
+  background-color: #c9c9c9 !important;
+}
+
+.z-index-minus {
+  z-index: -1;
 }
 
 .shift-up {
-    transform: translateY(-200px);
+  transform: translateY(-200px);
 }
 
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
 
 .section3 {
-    text-align: right;
+  text-align: right;
 }
 #portrait {
-    transition: margin-top 1s ease;
+  transition: margin-top 1s ease;
 }
 .shifted {
-    margin-top: 10em;
+  margin-top: 10em;
 }
 
 .drawing {
-    height:100vh;
+  height: 100vh;
 }
 
+h1,
+.h1 {
+  font-size: 2.5rem;
+  color: #414141;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  word-spacing: 0.2em;
+}
+.upscale {
+  transition: transform 0.1s ease;
+}
+.upscale:hover {
+  transform: scale(1.1);
+}

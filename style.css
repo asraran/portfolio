@@ -65,10 +65,17 @@ body {
 
 .lefttitle,
 .righttitle {
-  max-width: calc(100% - 30em);
+  max-width: calc(100% - 3em);
 }
 
-h5 {
+@media (min-width:576px) {
+  .lefttitle,
+  .righttitle {
+    max-width: calc(100% - 30em);
+  }
+}
+
+h2 {
   font-family: bebas___-webfont;
   color: #414141;
   size: 50px;
@@ -98,6 +105,10 @@ h5 {
   z-index: -1;
 }
 
+.shift-down {
+  margin-top: 200px;
+}
+
 .shift-up {
   transform: translateY(-200px);
 }
@@ -110,7 +121,7 @@ ul {
   text-align: right;
 }
 #portrait {
-  transition: margin-top 1s ease;
+  transition: margin-top .6s ease;
 }
 .shifted {
   margin-top: 10em;
@@ -118,7 +129,11 @@ ul {
 
 .drawing {
   height: 100vh;
+  
 }
+.drawing img {
+  max-width: 400px;
+} 
 
 h1,
 .h1 {
@@ -132,9 +147,23 @@ h4,
 h5 {
   word-spacing: 0.2em;
 }
+
+p {
+  word-spacing: 0.2em;
+}
 .upscale {
   transition: transform 0.1s ease;
 }
 .upscale:hover {
   transform: scale(1.1);
 }
+
+#contact {
+  display: inline-block;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 70%;
+  height: -50%;
+  text-align: right;
+}
+

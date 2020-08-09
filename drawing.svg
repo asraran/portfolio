@@ -1,17 +1,5 @@
-<svg 
-    version="1.1"
-    id="vera-animation"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    x="0px"
-    y="0px"
-    height="100%"
-    width="100%"
-    viewBox="0 0 612 792"
-    style="enable-background: new 0 0 612 792;"
-    xml:space="preserve"
-    preserveAspectRatio="xMinYMin slice"
-  >
+<svg version="1.1" id="vera-animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 220 360" style="enable-background:new 0 0 220 360;" xml:space="preserve">
 <defs>
 <style type="text/css">
       .st1 {
@@ -20,11 +8,11 @@
         stroke-miterlimit: 10;
         stroke-dasharray: 1724px;
         stroke-dashoffset: 1724px;
-        animation: line1 4s ease-in 0s both;
-        -webkit-animation: line1 4s ease-in 0s both;
-        -ms-animation: line1 4s ease-in 0s both;
-        -mos-animation: line1 4s ease-in 0s both;
-        -o-animation: line1 4s ease-in 0s both;
+        animation: line1 3s ease-in 0s both;
+        -webkit-animation: line1 3s ease-in 0s both;
+        -ms-animation: line1 3s ease-in 0s both;
+        -mos-animation: line1 3s ease-in 0s both;
+        -o-animation: line1 3s ease-in 0s both;
       }
 
       .st4 {
@@ -33,11 +21,11 @@
         stroke-miterlimit: 10;
         stroke-dasharray: 258px;
         stroke-dashoffset: 258px;
-        animation: line3 1s ease-out 4s both;
-        -webkit-animation: line3 1s ease-out 4s both;
-        -ms-animation: line3 1s ease-out 4s both;
-        -mos-animation: line3 1s ease-out 4s both;
-        -o-animation: line3 1s ease-out 4s both;
+        animation: line3 2s ease-out 3s both;
+        -webkit-animation: line3 1s ease-out 3s both;
+        -ms-animation: line3 1s ease-out 3s both;
+        -mos-animation: line3 1s ease-out 3s both;
+        -o-animation: line3 1s ease-out 3s both;
       }
 
       @keyframes line1 {

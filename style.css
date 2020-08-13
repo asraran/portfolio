@@ -149,7 +149,7 @@ h5 {
 }
 
 p {
-  word-spacing: 0.2em;
+  word-spacing: 1em;
 }
 .upscale {
   transition: transform 0.1s ease;
@@ -167,3 +167,6 @@ p {
   text-align: right;
 }
 
+#bio {
+ padding-right: 300px;
+}

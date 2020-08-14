@@ -144,13 +144,15 @@ h1,
 h1,
 h2,
 h4,
-h5 {
+h5,
+ul {
   word-spacing: 0.2em;
 }
 
 p {
-  word-spacing: 1em;
+  word-spacing: 0.8em;
 }
+
 .upscale {
   transition: transform 0.1s ease;
 }
@@ -167,6 +169,10 @@ p {
   text-align: right;
 }
 
-#bio {
- padding-right: 300px;
+.col-50 {
+  padding-right: 30%;
+}
+
+#modaltrigger1 {
+  overflow-y:scroll;
 }

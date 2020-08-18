@@ -34,6 +34,7 @@ window.addEventListener("scroll", (event)=> {
 
 document.querySelectorAll(".custommodaltrigger").forEach((button) => {
   button.addEventListener("click", (e) => {
+    document.body.classList.add("overflow-hidden")
     document
       .getElementById(e.currentTarget.dataset.target)
       .classList.remove("d-none");
@@ -41,8 +42,11 @@ document.querySelectorAll(".custommodaltrigger").forEach((button) => {
 });
 document.querySelectorAll(".custommodalexit").forEach((button) => {
   button.addEventListener("click", (e) => {
+    document.body.classList.remove("overflow-hidden")
     document.querySelectorAll(".custommodal").forEach((modal) => {
       modal.classList.add("d-none");
     });
   });
 });
+
+

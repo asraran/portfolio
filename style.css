@@ -149,6 +149,10 @@ ul {
   word-spacing: 0.2em;
 }
 
+.container {
+  word-spacing: 0.5em;
+}
+
 p {
   word-spacing: 0.8em;
 }
